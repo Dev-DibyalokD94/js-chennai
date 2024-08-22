@@ -1,10 +1,10 @@
-// let score = undefined
+let score = undefined
 
-// console.log(typeof score);
+console.log(typeof score);
 
-// let valueInNumber = Number(score)
+let valueInNumber = Number(score)
 
-// console.log(valueInNumber); //NaN -> Not a Number
+console.log(valueInNumber); //NaN -> Not a Number
 
 /*
 number : 33 -> 33
@@ -18,11 +18,11 @@ undefined -> NaN
 */
 // 
 
-// let isLoggedIn = 1
+let isLoggedIn = 1
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-// console.log(booleanIsLoggedIn); // op -> true
+console.log(booleanIsLoggedIn); // op -> true
 
 /*
 1 -> true
