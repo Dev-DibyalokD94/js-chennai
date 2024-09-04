@@ -62,11 +62,37 @@ console.log(typeof myFunction);
 
 
 
+//Memory +++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack and Heap
+
+/*
+
+Primitive -> Stack
+Non-primitive -> Heap
 
 
+*/
+
+let myYoutubeName = "Dibyalok's"
+
+let anotherName = myYoutubeName
+anotherName = "ChaiandCoffee"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
 
 
+let userOne = {
+    email: "user.com",
+    upi: "user@ybl"
+}
 
+let userTwo = userOne
 
+userTwo.email = "DD@dmail.com"
+
+// console.log(userOne);
+// console.log(userTwo);
 
 
